@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+**/node_modules/
+
+# Relatórios
+reports/
+allure-report/
+reports/allure-results/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
