@@ -1,0 +1,12 @@
+
+{
+  "newUserBase": {
+    "title": "Mr",
+    "newsletter": true,
+    "optin": true,
+    "country": "Canada",
+    "state": "ON",
+    "city": "Toronto",
+    "zipcode": "A1B2C3"
+  }
+}

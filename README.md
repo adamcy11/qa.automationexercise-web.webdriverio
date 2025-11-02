@@ -1,0 +1,68 @@
+# Teste de Automação Web – Automation Exercise  
+
+
+
+## Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/) (v18 ou superior)  
+- [WebdriverIO](https://webdriver.io/)  
+- [Mocha](https://mochajs.org/)  
+- [Allure Reports](https://docs.qameta.io/allure/)  
+- [Faker.js](https://fakerjs.dev/)  
+- [GitHub Actions](https://github.com/features/actions) (para CI/CD)
+
+
+ ## Pré-requisitos
+
+Antes de iniciar, verifique se você tem instalado:
+
+- **Node.js** (versão 18 ou superior)  
+- **npm** (gerenciador de pacotes do Node)  
+- **Git** configurado 
+
+
+
+##  Instalação
+
+1. **Clone o repositório**
+
+```bash
+   git clone https://github.com/adamcy11/qa.automationexercise-web.webdriverio.git
+```
+
+2. **Acesse a pasta do projeto:**
+
+```bash
+cd qa.automationexercise-web.webdriverio
+```
+3. **Instale as dependências:**
+
+```bash
+npm install
+```
+
+
+## Executando os Testes
+
+1. **Rodar todos os testes**
+```bash
+npx wdio run wdio.conf.js
+```
+
+---
+
+2. **Executar uma suíte específica**
+
+- Executa cenários relacionados ao cadastro de usuário:
+```bash
+npx wdio run wdio.conf.js --suite register
+```
+- Agrupa testes de busca e adição de produtos ao carrinho:
+```bash
+npx wdio run wdio.conf.js --suite products
+```
+
+- Valida comportamentos dentro do carrinho de compras, como quantidade e remoção:
+```bash
+npx wdio run wdio.conf.js --suite cart
+```
