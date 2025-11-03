@@ -12,6 +12,9 @@
 - [GitHub Actions](https://github.com/features/actions) (para CI/CD)
 
 
+<br>
+<br>
+
  ## Pré-requisitos
 
 Antes de iniciar, verifique se você tem instalado:
@@ -20,6 +23,8 @@ Antes de iniciar, verifique se você tem instalado:
 - **npm** (gerenciador de pacotes do Node)  
 - **Git** configurado 
 
+<br>
+<br>
 
 
 ##  Instalação
@@ -40,7 +45,8 @@ cd qa.automationexercise-web.webdriverio
 ```bash
 npm install
 ```
-
+<br>
+<br>
 
 ## Executando os Testes
 
@@ -66,3 +72,13 @@ npx wdio run wdio.conf.js --suite products
 ```bash
 npx wdio run wdio.conf.js --suite cart
 ```
+<br>
+<br>
+
+## Após a execução dos testes, o relatório é gerado automaticamente pelo **Allure Reports**.
+
+- **abrir o relatório localmente**
+  
+   ```bash
+   npm run allure:report
+   ```
