@@ -9,7 +9,7 @@ import users from '../data/users.json' assert { type: 'json' };
 import { buildUser } from '../helpers/dataGenerator.js';
 
 describe('Test Case 1 – Register User', () => {
-  it('deve registrar e deletar a conta com sucesso', async () => {
+  it('Registrar e deletar a conta com sucesso', async () => {
    
     // Arrange
     const user = buildUser(users.newUserBase);

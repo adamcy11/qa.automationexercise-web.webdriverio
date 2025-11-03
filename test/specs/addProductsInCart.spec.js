@@ -2,7 +2,7 @@ import ProductsPage from '../pages/Products.page.js';
 import CartPage from '../pages/Cart.page.js';
 
 describe('Test Case 12 – Add Products in Cart', () => {
-  it('deve adicionar dois produtos e validar preços/quantidades/total', async () => {
+  it('Adicionar dois produtos e validar preços/quantidades/total', async () => {
   
      // Arrange
     await ProductsPage.open();

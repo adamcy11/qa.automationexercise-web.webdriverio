@@ -5,7 +5,7 @@ import cartData from '../data/cart.json' assert { type: 'json' };
 
 describe('Test Case 13 – Verify Product quantity in Cart', () => {
 
-  it('deve exibir a quantidade correta no carrinho', async () => {
+  it('Exibir a quantidade correta no carrinho', async () => {
 
     // Arrange
     await HomePage.open();

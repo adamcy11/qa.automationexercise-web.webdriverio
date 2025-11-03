@@ -2,7 +2,7 @@ import ProductsPage from '../pages/Products.page.js';
 import CartPage from '../pages/Cart.page.js';
 
 describe('Test Case 17 – Remove Products From Cart', () => {
-  it('deve remover um produto do carrinho', async () => {
+  it('Remover um produto do carrinho', async () => {
     
     // Arrange
     await ProductsPage.open();

@@ -4,7 +4,7 @@ import productData from '../data/products.json' assert { type: 'json' };
 
 
 describe('Test Case 9 – Search Product', () => {
-  it('deve buscar e listar produtos relacionados ao termo', async () => {
+  it('Buscar e listar produtos relacionados ao termo', async () => {
 
     // Arrange
     const term = productData.searchTerm; 
