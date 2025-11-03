@@ -24,7 +24,9 @@ class ProductsPage extends BasePage {
   get searchedTitle() { return $(SELECTORS.searchedTitle); }
   get itemsWrapper() { return $(SELECTORS.itemsWrapper); }
 
-  productCard(index) { return $$(SELECTORS.productCards)[index]; }
+  productCard(index) { 
+    return $$(SELECTORS.productCards)[index];
+   }
 
   async goFromHeader() {
     await this.linkProducts.click();
@@ -47,7 +49,7 @@ class ProductsPage extends BasePage {
 
 
   await $(SELECTORS.modal).waitForDisplayed({ timeout: 12000 });
-}
+  }
 
   async openCardDetail(index = 0) {
     const card = this.productCard(index);
@@ -59,11 +61,11 @@ class ProductsPage extends BasePage {
  async modalContinueShopping() {
   await $(SELECTORS.modalContinue).click();
   await $(SELECTORS.modal).waitForDisplayed({ reverse: true, timeout: 8000 });
-}
+  }
 
   async modalViewCart() {
   await $(SELECTORS.modalViewCart).click();
-}
+  }
 }
 
 export default new ProductsPage();

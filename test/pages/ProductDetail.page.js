@@ -9,9 +9,17 @@ const SELECTORS = {
 };
 
 class ProductDetailPage extends BasePage {
-  get qty() { return $(SELECTORS.qty); }
-  get addBtn() { return $(SELECTORS.addBtn); }
-  get title() { return $(SELECTORS.title); }
+  get qty() {
+    return $(SELECTORS.qty);
+  }
+
+  get addBtn() {
+    return $(SELECTORS.addBtn);
+  }
+
+  get title() {
+    return $(SELECTORS.title);
+  }
 
   async setQuantity(n) {
     await this.qty.waitForDisplayed();
@@ -28,9 +36,7 @@ class ProductDetailPage extends BasePage {
   }
 
   async modalContinue() {
-    const btn = await $(SELECTORS.modalContinue);
-    await btn.waitForDisplayed({ timeout: 8000 });
-    await btn.click();
+     await cartModal.continueShopping();
   }
 }
 

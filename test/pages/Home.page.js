@@ -16,8 +16,13 @@ const HOME_SELECTORS = {
 
 class HomePage extends BasePage {
 
-  get logo() { return $(SELECTORS.logo); }
-  get signupLogin() { return $(SELECTORS.signupLogin); }
+  get logo() { 
+    return $(SELECTORS.logo); 
+  }
+  
+  get signupLogin() { 
+    return $(SELECTORS.signupLogin);
+   }
 
 
   async open() {

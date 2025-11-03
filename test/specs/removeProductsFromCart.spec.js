@@ -4,19 +4,18 @@ import CartPage from '../pages/Cart.page.js';
 describe('Test Case 17 – Remove Products From Cart', () => {
   it('deve remover um produto do carrinho', async () => {
     
-  
+    // Arrange
     await ProductsPage.open();
     await ProductsPage.addCardToCart(0);
     await ProductsPage.modalContinueShopping();
     await ProductsPage.addCardToCart(1);
     await ProductsPage.modalViewCart();
 
-  
     const beforeRows = await CartPage.getRows();
     const before = beforeRows.length;
     expect(before).toBeGreaterThanOrEqual(2);
 
-  
+    // Act
     await CartPage.removeRow(0);
 
   
@@ -25,6 +24,7 @@ describe('Test Case 17 – Remove Products From Cart', () => {
       { timeout: 5000, timeoutMsg: 'Carrinho não atualizou após remover item' }
     );
 
+    // Assert
     const after = (await CartPage.getRows()).length;
     expect(after).toBeLessThan(before);
   });

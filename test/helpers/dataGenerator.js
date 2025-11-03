@@ -24,11 +24,11 @@ export function buildUser(base = {}) {
     lastName:  base.lastName  ?? faker.person.lastName(),
     company:   base.company   ?? faker.company.name(),
     address1:  base.address1  ?? faker.location.streetAddress(),
-    address2:  base.address2  ?? '',
+    address2:  base.address2  ?? 'Andress 2',
     country:   base.country   ?? 'Canada',
     state:     base.state     ?? 'ON',
     city:      base.city      ?? 'Toronto',
-    zipcode:   base.zipcode   ?? 'A21543',
+    zipcode:   base.zipcode   ?? '323575',
     mobile:    base.mobile    ?? faker.phone.number('119########')
   };
 }

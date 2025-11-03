@@ -5,8 +5,13 @@ const SELECTORS = {
 };
 
 class AccountCreatedPage {
-  get title() { return $(SELECTORS.title); }
-  get continueBtn() { return $(SELECTORS.continueBtn); }
+  get title() { 
+    return $(SELECTORS.title);
+   }
+
+  get continueBtn() { 
+    return $(SELECTORS.continueBtn);
+   }
 
   async assertLoaded() { await this.title.waitForDisplayed(); }
   async continue() { await this.continueBtn.waitForDisplayed(); await this.continueBtn.click(); }
