@@ -27,15 +27,15 @@ Antes de iniciar, verifique se você tem instalado:
 <br>
 
 
-##  Instalação
+##  Instalação via terminal
 
-1. **Clone o repositório usando os comandos abaixo no seu terminal**
+1. **Clone o repositório usando os comandos abaixo**
 
 ```bash
 git clone https://github.com/adamcy11/qa.automationexercise-web.webdriverio.git
 ```
 
-2. **Acesse a pasta do projeto:**
+2. **Acesse a pasta do projeto pelo terminal (Entre na pasta clonada também pelo editor para a visualização do código)**
 
 ```bash
 cd qa.automationexercise-web.webdriverio
