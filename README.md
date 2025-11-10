@@ -55,7 +55,6 @@ npm install
 npx wdio run wdio.conf.js
 ```
 
----
 
 2. **Executar uma suíte específica**
 
@@ -63,12 +62,12 @@ npx wdio run wdio.conf.js
 ```bash
 npx wdio run wdio.conf.js --suite register
 ```
-- Agrupa testes de busca e adição de produtos ao carrinho:
+- Executa cenários de busca e adição de produtos ao carrinho:
 ```bash
 npx wdio run wdio.conf.js --suite products
 ```
 
-- Valida comportamentos dentro do carrinho de compras, como quantidade e remoção:
+- Executa cenários de comportamentos dentro do carrinho de compras, como quantidade e remoção:
 ```bash
 npx wdio run wdio.conf.js --suite cart
 ```
