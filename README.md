@@ -10,6 +10,7 @@
 - [Allure Reports](https://docs.qameta.io/allure/)  
 - [Faker.js](https://fakerjs.dev/)  
 - [GitHub Actions](https://github.com/features/actions) (para CI/CD)
+- [Java](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
 
 
 <br>
