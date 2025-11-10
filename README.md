@@ -29,7 +29,7 @@ Antes de iniciar, verifique se você tem instalado:
 
 ##  Instalação
 
-1. **Clone o repositório**
+1. **Clone o repositório usando os comandos abaixo no seu terminal**
 
 ```bash
    git clone https://github.com/adamcy11/qa.automationexercise-web.webdriverio.git
