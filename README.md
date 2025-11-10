@@ -32,7 +32,7 @@ Antes de iniciar, verifique se você tem instalado:
 1. **Clone o repositório usando os comandos abaixo no seu terminal**
 
 ```bash
-   git clone https://github.com/adamcy11/qa.automationexercise-web.webdriverio.git
+git clone https://github.com/adamcy11/qa.automationexercise-web.webdriverio.git
 ```
 
 2. **Acesse a pasta do projeto:**
